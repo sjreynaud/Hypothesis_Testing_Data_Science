@@ -1,9 +1,9 @@
-**# Step 1: Ignore R session files**
+# Step 1: Ignore R session files
 .Rhistory
 .RData
 .Rproj.user/
 
-**# Step 2: Ignore OS-specific files**
+# Step 2: Ignore OS-specific files
 .DS_Store
 Thumbs.db
 
