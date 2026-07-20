@@ -1,10 +1,9 @@
 **📘 Project Overview**
+
 This repository integrates **three major components** demonstrating modern hypothesis‑testing practice in data science:
 
 - A scholarly literature review synthesizing classical NHST, resampling, FDR control, sequential inference, and Bayesian approaches.
-
 - A practical application using a synthetic e‑commerce dataset (n = 500) to evaluate business‑relevant hypotheses.
-
 - A fully reproducible R workflow including data generation, hypothesis testing, and visualization.
 
 This project reflects best practices in statistical reasoning, reproducible analytics, and transparent documentation.
