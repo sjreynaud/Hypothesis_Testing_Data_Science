@@ -15,7 +15,6 @@ This project reflects best practices in statistical reasoning, reproducible anal
 
 
 
-
 Each folder is structured to support reproducibility, clarity, and stakeholder review.
 
 **📄 Included Documents**
@@ -26,95 +25,81 @@ Located in literature-review/.
 
 This document synthesizes foundational and modern hypothesis‑testing methods, including:
 
-Classical NHST
-
-Effect sizes and power analysis
-
-Bootstrap and permutation tests
-
-False Discovery Rate (FDR) control
-
-Sequential / always‑valid inference
-
-Bayesian hypothesis testing
+- Classical NHST
+- Effect sizes and power analysis
+- Bootstrap and permutation tests
+- False Discovery Rate (FDR) control
+- Sequential / always‑valid inference
+- Bayesian hypothesis testing
 
 It provides the theoretical backbone for the applied work.
 
-Practical Application
+**Practical Application**
+
 Located in practical-application/.
 
 This report applies three classical tests to a synthetic e‑commerce dataset:
 
-Independent samples t‑test
-
-Chi‑square test of independence
-
-One‑tailed t‑test
+- Independent samples t‑test
+- Chi‑square test of independence
+- One‑tailed t‑test
 
 Includes assumption checks, effect sizes, and interpretation aligned with real‑world analytics workflows.
 
 **🔬 Methods Demonstrated**
+
 Classical Methods
-Independent samples t‑test
 
-One‑tailed t‑test
+- Independent samples t‑test
+- One‑tailed t‑test
+- Chi‑square test of independence
+- Two‑sample proportion test
 
-Chi‑square test of independence
+**Modern Approaches (Literature Review)**
 
-Two‑sample proportion test
+- Bootstrap resampling
+- Permutation tests
+- False Discovery Rate (FDR)
+- Sequential inference
+- Bayesian hypothesis testing
 
-Modern Approaches (Literature Review)
-Bootstrap resampling
+**🧪 Reproducible R Workflow**
 
-Permutation tests
+**1. Generate Synthetic Data**
 
-False Discovery Rate (FDR)
-
-Sequential inference
-
-Bayesian hypothesis testing
-
-🧪 Reproducible R Workflow
-1. Generate Synthetic Data
 Run:
-
-r
+R
 source("r-scripts/data_generation.R")
+
 This script:
+- Creates a synthetic dataset (n = 500)
+- Simulates page views, time spent, A/B versions, and conversion outcomes
+- Saves the dataset to practical-application/synthetic_data.csv
 
-Creates a synthetic dataset (n = 500)
+**2. Run Hypothesis Tests**
 
-Simulates page views, time spent, A/B versions, and conversion outcomes
-
-Saves the dataset to practical-application/synthetic_data.csv
-
-2. Run Hypothesis Tests
 Run:
-
-r
+R
 source("r-scripts/hypothesis_tests.R")
+
 This script:
+- Computes conversion summaries
+- Performs a two‑sample proportion test
+- Performs a chi‑square test of independence
+- Saves results to outputs/test_results/
 
-Computes conversion summaries
+**3. Generate Visualizations**
 
-Performs a two‑sample proportion test
-
-Performs a chi‑square test of independence
-
-Saves results to outputs/test_results/
-
-3. Generate Visualizations
 Run:
-
-r
+R
 source("r-scripts/visualization.R")
+
 This script:
-
-Creates histograms of page views and time spent
-
-Saves figures to outputs/figures/
+- Creates histograms of page views and time spent
+- Saves figures to outputs/figures/
 
 **🎯 Stakeholder Value**
+
 This repository demonstrates:
 
 **Statistical competency**
@@ -135,8 +120,10 @@ The project is structured exactly how hiring managers, senior data scientists, a
 **📦 Requirements**
 Install required R packages:
 
-** r **
+** R **
 install.packages(c("dplyr", "ggplot2"))
+
 **📬 Author**
 Sidney J Reynaud, Jr.  
-
+National University
+July 2026
