@@ -11,7 +11,8 @@ This project reflects best practices in statistical reasoning, reproducible anal
 
 **📁 Repository Structure**
 
-<img width="512" height="768" alt="Copilot_20260720_121138" src="https://github.com/user-attachments/assets/ab13bbe0-0099-43e5-afb4-2fd9abaeda30" />
+<img width="1024" height="1536" alt="Copilot_20260720_121807 (1)" src="https://github.com/user-attachments/assets/c15fb3cd-ba6e-4661-92d4-86de442ade54" />
+
 
 Code
 hypothesis-testing-data-science/
