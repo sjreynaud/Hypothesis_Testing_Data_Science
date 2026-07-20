@@ -11,7 +11,8 @@ This project reflects best practices in statistical reasoning, reproducible anal
 
 **📁 Repository Structure**
 
-<img width="1024" height="1536" alt="Copilot_20260720_121807 (1)" src="https://github.com/user-attachments/assets/c15fb3cd-ba6e-4661-92d4-86de442ade54" />
+<img width="451" height="557" alt="image" src="https://github.com/user-attachments/assets/1c3eb62f-f919-4670-943e-606c734caf38" />
+
 
 
 Code
