@@ -1,1 +1,16 @@
+**# Step 1: Ignore R session files**
+.Rhistory
+.RData
+.Rproj.user/
+
+**# Step 2: Ignore OS-specific files**
+.DS_Store
+Thumbs.db
+
+# Step 3: Ignore temporary files
+*.tmp
+*.log
+
+# Step 4: Ignore outputs (optional – you can remove if you want to track them)
+outputs/
 
