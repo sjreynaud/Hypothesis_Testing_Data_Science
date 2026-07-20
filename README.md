@@ -11,7 +11,7 @@ This project reflects best practices in statistical reasoning, reproducible anal
 
 **📁 Repository Structure**
 
-<img width="251" height="357" alt="image" src="https://github.com/user-attachments/assets/1c3eb62f-f919-4670-943e-606c734caf38" />
+<img width="351" height="457" alt="image" src="https://github.com/user-attachments/assets/1c3eb62f-f919-4670-943e-606c734caf38" />
 
 
 
