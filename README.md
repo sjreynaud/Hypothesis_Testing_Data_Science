@@ -15,33 +15,7 @@ This project reflects best practices in statistical reasoning, reproducible anal
 
 
 
-Code
-hypothesis-testing-data-science/
-│
-├── README.md
-│
-├── literature-review/
-│   └── Literature_Review.pdf
-│
-├── practical-application/
-│   ├── Practical_Application.pdf
-│   └── synthetic_data.csv
-│
-├── r-scripts/
-│   ├── data_generation.R
-│   ├── hypothesis_tests.R
-│   └── visualization.R
-│
-├── outputs/
-│   ├── figures/
-│   │   ├── pageviews_hist.png
-│   │   └── timespent_hist.png
-│   └── test_results/
-│       ├── two_sample_proportion_test.txt
-│       ├── chi_square_results.txt
-│       └── session_duration_ttest.txt
-│
-└── .gitignore
+
 Each folder is structured to support reproducibility, clarity, and stakeholder review.
 
 **📄 Included Documents**
